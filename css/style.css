@@ -47,3 +47,43 @@ header{
     height: 100%;
     object-fit: contain;
 }
+.navlist{
+    display: flex;
+}
+.navlist a{
+    display: inline-block;
+    font-size: var(--p-font);
+    color: var(--text-color);
+    margin: 0 30px;
+    padding: 2px 0;
+    border-bottom: 2px solid transparent;
+    transition: all .6s ease;
+}
+.navlist a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-content a{
+    display: inline-block;
+    font-size: 23px;
+    color: var(--text-color);
+    margin: 0 10px;
+    transition: all .6s ease;
+}
+.nav-content a:hover{
+    transform: scale(1.1);
+    color: var(--main-color);
+}
+
+#menu-icon{
+    font-size: 32px;
+    z-index: 1001;
+    cursor: pointer;
+    margin-left: 10px;
+    display: none;
+}
