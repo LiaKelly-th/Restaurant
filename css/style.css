@@ -194,3 +194,51 @@ section{
     transform: scale(1.04) translateY(-4px);
     border: 1px solid red;
 }
+
+
+.banner{
+    padding: 10px 10% 10px;
+}
+.banner-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2rem;
+}
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.banner-in{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+.banner-in h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.banner-in h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+.b-btnn{
+    padding: 10px 27px;
+    display: inline-block;
+    background: var(--text-color);
+    color: var(--bg-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: all .6s ease;
+}
+.b-btnn:hover{
+    background: var(--main-color);
+}
