@@ -533,3 +533,29 @@ section{
         right: 0;
     }
 }
+
+@media(max-width: 700px){
+    :root{
+        --h1-font: 3.4rem;
+        --h2-font:2rem;
+        --p-font:15px; 
+    }   
+    .cta-content h2{
+        font-size: 2.8rem;
+
+    }
+    .banner-in h3{
+        margin: 5px 0;
+        font-size: 24px;
+    }
+    .b-btnn{
+        padding: 7px 20px;
+
+    }
+    .banner{
+        padding: 20px 5% 20px;
+    }
+    .banner-content{
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+}
